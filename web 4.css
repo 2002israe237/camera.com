@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Best-Cameras-for-Professional-Photography-6.jpg);
+    background-size: cover;
+    background-position: top right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100vh;
+}
+.w1{
+
+    
+    display: flex;
+    gap: 700px;
+    background-color: black;
+    padding-top: 15px;
+    
+}
+.w3{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    justify-content: flex-end;
+    }
+.w2 a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.w3 a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.w2 a:hover, .w3 a:hover{
+    color: red;
+    background-color: blueviolet;
+    border-radius: 15px;
+}
+.w2{
+    margin-left: 3%;
+    margin-bottom: 5px;
+}
+.wo{
+    text-align: center;
+    margin-top: 200px;
+}
+.wop{
+    color: aliceblue;
+    font-size: 65px;
+    font-weight: bolder;
+    width: 800px;
+    margin-left: 380px;
+}
